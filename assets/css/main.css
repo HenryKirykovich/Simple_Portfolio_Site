@@ -1685,7 +1685,7 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
 .button.alt {
-    background-color: #444;
+    /* background-color: #444; */
     box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 }
 
@@ -1694,7 +1694,7 @@ input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
 button.alt:hover,
 .button.alt:hover {
-    background-color: #4f4f4f;
+    background-color: #b7b7b7;
     color: #fff !important;
 }
 
@@ -1703,7 +1703,7 @@ input[type="submit"].alt:active,
 input[type="reset"].alt:active,
 button.alt:active,
 .button.alt:active {
-    background-color: #3f3f3f;
+    background-color: empty;
 }
 
 
@@ -1948,14 +1948,14 @@ ul.actions li:first-child {
 .wrapper.style4 form select,
 .wrapper.style4 form textarea {
     border: none;
-    background: #6f6c6c;
+    background: #777;
 }
 
 .wrapper.style4 form input[type=text]:focus,
 .wrapper.style4 form input[type=password]:focus,
 .wrapper.style4 form select:focus,
 .wrapper.style4 form textarea:focus {
-    background: #252525;
+    background: #777;
 }
 
 
