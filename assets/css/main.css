@@ -1581,7 +1581,7 @@ article:last-child {
 
 .image img {
     display: block;
-    width: 100%;
+    width: 77%;
     filter: brightness(0.75);
     /* Reduce brightness */
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
