@@ -103,9 +103,11 @@ section {
     display: block;
 }
 
+
 body {
     line-height: 1;
 }
+
 
 ol,
 ul {
@@ -332,12 +334,7 @@ footer>p {
 }
 
 
-/* My CSS */
 
-#about {
-    background-color: #ffffff;
-    padding: 2em;
-}
 
 
 /* My CSS +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -1904,34 +1901,49 @@ ul.actions li:first-child {
 }
 
 .wrapper.style1 {
-    background-color: #D3D3D3;
+    
+    background-color: transparent;
+    background-image: none;
     text-shadow: -1px -1px 0px #181818;
-    filter: brightness(0.7);
-    /* Reduce brightness to 70% */
+    color: white;
+    position: relative;
+    z-index: 1; /* Make sure it's above the canvas */ 
+    
+    
 }
 
 .wrapper.style2 {
-    background-image: url("images/code4.jpg");
-    text-align: left;
+    
+    background-color: transparent;
+    background-image: none;
     text-shadow: -1px -1px 0px #181818;
-    filter: brightness(0.7);
-    /* Reduce brightness to 70% */
+    color: white;
+    position: relative;
+    z-index: 1; /* Make sure it's above the canvas */ 
+    
+    
+    
 }
 
 .wrapper.style3 {
-    background-image: url("images/code4.jpg");
-    text-align: left;
+    
+    background-color: transparent;
+    background-image: none;
     text-shadow: -1px -1px 0px #181818;
-    filter: brightness(0.7);
-    /* Reduce brightness to 70% */
+    color: white;
+    position: relative;
+    z-index: 1; /* Make sure it's above the canvas */ 
+            
 }
 
 .wrapper.style4 {
-    background-image: url("images/code4.jpg");
+    background-color: transparent;
+    background-image: none;
     text-shadow: -1px -1px 0px #181818;
-    filter: brightness(0.7);
-    /* Reduce brightness to 70% */
-    /*+++++++++++++++++++++++++++++++++++++++++++++++++++++ Reduce brightness to 70% */
+    color: white;
+    position: relative;
+    z-index: 1; /* Make sure it's above the canvas */  
+    
 }
 
 .wrapper.style4 h1,
@@ -2102,6 +2114,18 @@ body>article {
 #copyright a:hover {
     color: #777;
 }
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+
 
 
 /* Large */
